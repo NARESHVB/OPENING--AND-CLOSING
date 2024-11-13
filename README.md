@@ -55,17 +55,17 @@ closing_image_rgb = cv2.cvtColor(closing_image, cv2.COLOR_BGR2RGB)
 ```
 plt.figure(figsize=(10, 5))
 
-plt.subplot(1, 3, 1)
+
 plt.imshow(image_rgb)
 plt.title("Original Image")
 plt.axis("off")
 
-plt.subplot(1, 3, 2)
+
 plt.imshow(opening_image_rgb)
 plt.title("Opening Operation")
 plt.axis("off")
 
-plt.subplot(1, 3, 3)
+
 plt.imshow(closing_image_rgb)
 plt.title("Closing Operation")
 plt.axis("off")
